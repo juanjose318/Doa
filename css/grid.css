@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    width: 1140px;
+    margin: 45px auto;
+
+}
+
+.row {
+    margin: 0 0;
+}
+
+.row:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.pull-right {
+    float: right;
+}
+
+.col-12,
+.col-11,
+.col-10,
+.col-9,
+.col-8,
+.col-7,
+.col-6,
+.col-5,
+.col-4,
+.col-3,
+.col-2,
+.col-1 {
+
+    position: relative;
+    display: block;
+    float: left;
+    height: 250px;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 15.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+    float: none;
+}
+
+.img-flexible {
+    width: 100%;
+    height: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 750px) {
+    .container {
+
+        width: 100%;
+        margin: 0;
+
+    }
+
+
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col-1{
+        float: left;
+        width: 50%;
+        height:300px;
+
+    }
+.arrange {
+    height:300px;
+    width:100%;
+}
+    .row {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .col-12,
+    .col-11,
+    .col-10,
+    .col-9,
+    .col-8,
+    .col-7,
+    .col-6,
+    .col-5,
+    .col-4,
+    .col-3,
+    .col-2,
+    .col-1 {
+        float: none;
+        width: 100%;
+
+    }
+
+
+
+    .row {
+        margin: 0;
+    }
+}
+

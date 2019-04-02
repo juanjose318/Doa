@@ -1,0 +1,14 @@
+/* TEAM */
+Company: Arteveldehogeschool
+Website: http://www.arteveldehs.be
+Twitter: @ArteveldeHS
+Email: info [at] arteveldehs [dot] be
+Location: Ghent, Belgium
+
+Data+Design+HTML+CSS+PHP+MySQL+jQuery: Juan José Muñoz Twitter: @JuanVanLeuven 
+Location: Ghent, Belgium
+
+ Data+Design+HTML+CSS+PHP+MySQL+jQuery: Janne Vanbesien - Ghent, Belgium/* SITE */
+Last update: Always up-to-date
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery , phpStorm, Brackets and Adobe Illustrator

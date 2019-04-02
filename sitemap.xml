@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>http://domainname/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+    <url><loc>http://domainname/about/</loc></url>
+    <url><loc>http://domainname/about/Disclaimer.html</loc></url>
+    <url><loc>http://domainname/about/contact.html</loc></url>
+    <url><loc>http://domainname/LineUp/LineUSaturday.html</loc></url>
+ 
+<url><loc>http://domainname/LineUp/LineUSunday.html</loc></url>
+<url><loc>http://domainname/LineUp/LineUpPodia.html</loc></url> 
+<url><loc>http://domainname/LineUp/LineUpABC.html</loc></url>
+<url><loc>http://domainname/LineUp/JahShaka.html</loc></url>
+<url><loc>http://domainname/LineUp/InfectedMushrooms.html</loc></url>
+<url><loc>http://domainname/Info/Festencamping.html</loc></url> 
+<url><loc>http://domainname/Info/Tickets.html</loc></url>
+<url><loc>http://domainname/Info/Partners.html</loc></url>  
+<url><loc>http://domainname/Blog/Blog.html</loc></url>
+   
+</urlset>

@@ -1,0 +1,687 @@
+/* clearfix */
+
+.clearfix:after {
+
+    content: '';
+    display: table;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+/* Home page */
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 1);
+    font: normal normal 400 16px "lato", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.intro-wrapper {
+
+    width: 100%;
+    height: 100vh;
+    display: block;
+
+}
+
+
+.intro-img {
+
+    width: 100%;
+    height: 100%;
+    background: url("images/BG.png") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+
+.c404 {
+    width: 100%;
+    height: 100%;
+    background: url("images/404.png") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+.button {
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    position: relative;
+    top: -16%;
+    left: 46%;
+    color: rgba(55, 55, 55, 1);
+    text-decoration: none;
+    background-color: rgb(0, 155, 155);
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+
+}
+
+.button:hover {
+    border: 1px solid rgb(55, 55, 55);
+    color: rgb(255, 255, 255);
+    transition: all 300ms;
+}
+
+.img-flexible {
+
+    width: 100%;
+  
+}
+
+.info {
+
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 50px 0;
+
+}
+
+.info h2 {
+
+    color: rgba(255, 51, 0, 1);
+    font: normal normal bold 2rem "lato", serif;
+
+}
+
+.info p {
+
+    color: rgba(100, 100, 100, 1);
+    font: normal normal bold 1rem "lato", sans-serif;
+    margin:2%;
+}
+
+.info a {
+    display: inline-block;
+    border: solid 1px rgba(255, 51, 0, 1);
+    font: normal normal 400 1rem "lato", sans-serif;
+    margin: 2% 0;
+    padding: 10px;
+    text-decoration: none;
+    color:rgba(255, 51, 0, 1);
+}
+
+.info a:hover {
+    background-color: rgba(255, 51, 0, 1);
+    transition: all 300ms;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info > a:checked {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.view {
+
+    -webkit-filter: grayscale(100%);
+
+}
+
+.view:hover {
+    -webkit-filter: grayscale(0%);
+    transition: all .5s ease-in;
+
+}
+
+footer {
+
+    width: 100%;
+    background-color: rgb(0, 155, 155);
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    padding: 2% 0;
+    display: block;
+    padding-left: 13%;
+
+
+}
+
+.cover {
+    display: block;
+    position: relative;
+    top: -31%;
+    height: 30%;
+    width: 100%;
+    background-color: rgba(255, 51, 0, 0.5);
+    opacity: 0;
+    transform: scale(1.1);
+
+}
+
+.cover h2 {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: rgba(255, 255, 255, 1)
+}
+
+.cover p{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    color: rgba(255, 255, 255, 1)
+}
+
+.grid img:hover + .cover {
+    transform: scale(1);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+
+.grid  a:hover + .cover {
+    transform: scale(1);
+    transition: all 300ms ease-out;
+    opacity: 1;
+}
+.line {
+    padding:5% 0;
+}
+
+.line h1 {
+    font-weight: bold;
+    color: rgba(255, 51, 0, 1);
+
+}
+
+.line p {
+    color: rgb(0, 155, 155);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.podium{
+    display: block;
+    position: relative;
+    left:40%;
+    font-size:2rem;
+    font-weight: bold;
+    color:rgba(0, 155, 155, 1);
+    margin:10% 0;
+}
+
+/* Artists */
+
+
+.intro-img2 {
+
+    width:100%;
+    height:100%;
+    background:url("images/infected.png") no-repeat center center scroll;
+    background-size:cover;
+    display:table;
+}
+
+.intro-img3 {
+    width:100%;
+    height:100%;
+    background:url("images/dub/jahshaka.jpg") no-repeat center center scroll;
+    background-size:cover;
+    display:table;
+
+}
+.namenContainer{
+    width:30%;
+    height:15%;
+    background-color:black;
+    position: relative;
+    top:-20%;
+    left:35%;
+
+}
+
+.namenContainer .naamArtist {
+    background-color:rgb(255,106,20);
+    color:rgb(255,255,255);
+    height:50%;
+}
+
+.naamArtist p {
+    padding:0 0 2% 5%;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.dagArtist p {
+    padding:1% 0 1% 5%;
+    color: white;
+    font-size:1.5rem;
+    font-weight: bold;
+
+}
+.artistInf h2 {
+    color:rgb(255,106,20);
+    margin-bottom:2%;
+    padding:2%;
+}
+
+.artistInf p {
+    text-align: justify;
+    padding:2%;
+}
+
+.artistInf {
+    margin-bottom:10%;
+}
+
+/*<---------------Info en tickets-----------> */
+
+.intro-wrapper2 {
+
+
+    width: 100%;
+    height: 35vh;
+    display: block;
+
+}
+
+.intro-banner {
+    width: 100%;
+    height: 100%;
+    background: url("images/bannerinfo.jpg") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+
+.intro-banner2 {
+    width: 100%;
+    height: 100%;
+    background: url("images/podium.jpg") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+
+.intro-banner3{
+    width: 100%;
+    height: 100%;
+    background: url("images/hands2.jpg") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+
+.banner-title,.banner-title2 {
+
+    display: block;
+    position: relative;
+    top:-40%;
+    left:40%
+
+}
+
+.banner-title  h1,.banner-title2  h1{
+
+
+    font-size:3rem;
+    color:rgba(255,255,255,1);
+}
+
+
+
+.arrange {
+    height:100%;
+}
+
+.generaltext{
+    padding:1%;
+}
+.generaltext h2, .generaltext h3 {
+    color:rgb(255,106,20);
+    margin:5% 0;
+}
+
+.generaltext p {
+    padding:2% 0;
+    text-align: justify;
+    line-height:1.5rem;
+}
+
+.generaltext a {
+    margin-left:35%;
+    padding:1% 4%;
+    color:rgb(255,255,255);
+    background-color:rgb(146,71,104);
+    text-decoration: none;
+}
+
+.generaltext a:hover {
+    color :rgb(255,106,20);
+}
+
+
+ .over p{
+     margin:5% 1%;
+     font-size:1.5rem;
+ }
+.contact {
+    background-color:rgb(146,71,104);
+   padding:2%;
+}
+.form {
+    width:100%;
+    position: relative;
+    left: 40%;
+}
+fieldset {
+    border: none;
+}
+
+legend {
+    font-size:1.5rem;
+    color:rgb(255,255,255);
+}
+
+label {
+
+    padding:5% 0;
+    font-size:1.2rem;
+
+}
+
+input[type="text"] {
+    border-radius:5px;
+    width:90%;
+
+}
+textarea{
+    border-radius:5px;
+    width:90%;
+}
+
+input[type="submit"]{
+    padding:1% 2%;
+    background-color:rgb(255,255,255);
+    font-weight: bold;
+    color:rgb(55,55,55);
+    border-radius:5px;
+}
+
+
+/* Blog */
+
+
+.space {
+    padding-right:5%;
+}
+
+/*  FAQ */
+
+.questions  {
+    list-style: none;
+
+}
+
+.questions li {
+    margin:10%;
+}
+.questions li a {
+
+    text-decoration: none;
+    background-color:rgb(146,71,104);
+    padding:2px 30px;
+    font-size:2rem;
+
+}
+
+.clicked {
+    background-color:rgba(0, 155, 155, 1) !important; ;
+    color:rgba(255,255,255,1) !important;
+}
+
+.sortmenu {
+    background:none;
+}
+
+.intro-banner4 {
+   width: 100%;
+    height: 100%;
+    background: url("images/bannerinfo.jpg") no-repeat center center scroll;
+    background-size: cover;
+    display: table;
+}
+
+@media (max-width: 480px) {
+
+    .button {
+        left: 37%;
+        font-size: 1rem;
+        width: 100px;
+    }
+
+    footer p {
+
+        left: 7%;
+        padding-top: 2%;
+        padding-left: 10%;
+        font-size: 1rem;
+    }
+
+    .line {
+        padding-top: 20%;
+        margin: 0 1% 1% 1%;
+    }
+
+    .line h1 {
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .line p {
+        font-size: 0.8rem;
+    }
+
+    .col-4 {
+
+        clear: both;
+        width: 100%;
+    }
+
+    .cover {
+        width: 100%;
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .podium {
+        font-size: 1.5rem;
+        left: 30%;
+
+    }
+    .namenContainer{
+        height:20%;
+        top:-30%;
+        width:50%;
+    }
+    .naamArtist p {
+        font-size:1rem;
+    }
+
+    .dagArtist p {
+        font-size:1rem;
+    }
+    .col-info{
+        width:100%;
+        float: none;
+    }
+    .contact{
+        width: 100%;
+    }
+
+    .banner-title2 {
+        left:5%;
+
+    }
+
+
+
+    .questions li {
+        display: block;
+        float: left;
+        margin:5% 2%;
+
+
+    }
+
+    .questions li a {
+        font-size:1rem;
+        padding:2px 3px;
+
+    }
+    .sortmenu {
+        background-color:rgb(146,71,104) ;
+    }
+}
+
+
+    @media (max-width: 750px) {
+
+        .info h2 {
+            font-size: 2rem
+        }
+
+        .info p {
+            font-size: 1rem;
+        }
+
+        .info a {
+            font-size: 1rem;
+        }
+
+        footer p {
+            font-weight: bold;
+            font-size: 0.8rem;
+            color: rgb(255, 255, 255);
+            left: 30%;
+            padding-top: 2%;
+            padding-left: 5%;
+        }
+
+        .line {
+            padding: 10% 0;
+
+        }
+
+        .cover {
+            width: 100%;
+        }
+
+        .img-flexible {
+            width: 100%;
+            border-radius: 0;
+            object-fit: cover;
+        }
+
+        .cover {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .namenContainer{
+            height:20%;
+            top:-30%;
+        }
+        .naamArtist p {
+            font-size:1rem;
+        }
+
+        .dagArtist p {
+            font-size:1rem;
+        }
+        .col-info {
+            float: none;
+            width: 100%;
+        }
+        .banner-title {
+            left:5%;
+        }
+        .banner-title2 {
+            left: 5%;
+        }
+        .banner-title h1 {
+            font-size:2rem;
+        }
+
+
+        .banner-title2  h1{
+            font-size:2rem;
+        }
+
+        .generaltext p {
+            font-size: 0.8rem;
+        }
+
+
+        .over p {
+            padding-left:1%;
+            font-size:1rem;
+            text-align: left;
+        }
+
+        form {
+            left:1%;
+        }
+        input[type="text"] {
+            border-radius:5px;
+            width:90%;
+        }
+
+        label {
+            font-size: 0.8rem;
+            color:rgb(55,55,55);
+        }
+        textarea{
+            border-radius:5px;
+            width:90%;
+            color:rgb(55,55,55);
+        }
+        .space {
+            padding-right:0;
+        }
+
+        .questions li {
+            display: block;
+            float: left;
+            margin:5% 2%;
+
+
+        }
+
+        .questions li a {
+            font-size:1rem;
+            padding:2px 3px;
+            border-radius:5px;
+
+        }
+
+        .listfaq  > li{
+
+            font-size: 0.8rem;
+
+        }
+
+        .sortmenu {
+            background-color:rgb(146,71,104) ;
+        }
+    }
+
+
+
+
